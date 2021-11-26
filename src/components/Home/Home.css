@@ -1,0 +1,28 @@
+.hero-banner {
+	background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(../../Images/banner.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 13rem 0;
+}
+
+.hero-title h1 {
+	font-family: 'Roboto', sans-serif;
+	margin: 2rem 0;
+}
+
+.hero-title p {
+	margin-bottom: 2rem;
+}
+ 
+@media (max-width: 575px) {
+	.hero-banner  {
+		padding: 9rem 0;
+	}
+}
+
+@media (max-width: 390px) {
+	.breack {
+		display: none;
+	}
+}

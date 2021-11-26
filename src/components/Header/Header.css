@@ -1,0 +1,56 @@
+.logo img {
+	max-width: 5rem;
+}
+
+.logo span {
+	vertical-align: bottom;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.main-menu ul li a {
+	position: relative;
+}
+
+.main-menu ul li a:hover {
+	color: #00AA55;
+}
+
+.main-menu ul li a::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	-webkit-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	transform: scaleX(0);
+	height: .3rem;
+	background-color: #00AA55;
+	-webkit-transform-origin: bottom right;
+	-ms-transform-origin: bottom right;
+	transform-origin: bottom right;
+	-webkit-transition: -webkit-transform 0.4s ease-in;
+	transition: -webkit-transform 0.4s ease-in;
+	-o-transition: transform 0.4s ease-in;
+	transition: transform 0.4s ease-in;
+	transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+.main-menu ul li a:hover::after {
+	-webkit-transform: scaleX(1);
+	-ms-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transform-origin: bottom left;
+	-ms-transform-origin: bottom left;
+	transform-origin: bottom left;
+}
+
+@media (max-width: 767px) {
+	.main-menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+	}
+}

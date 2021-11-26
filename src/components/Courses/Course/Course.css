@@ -1,0 +1,11 @@
+.course .course-img img {
+	width: 100%;
+	height: 26rem;
+	object-fit: cover;
+}
+
+@media (max-width: 767px) {
+	.course .course-img img {
+		height: auto;
+	}
+}

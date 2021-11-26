@@ -1,0 +1,58 @@
+[
+	{
+		"id": 11,
+		"category": null,
+		"title": "Best Tutors",
+		"description": "The Quran Courses  Academy has professional teachers who can communicate in Arabic and English fluently,  making sure that communication and learning is effective.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s1.jpg"
+	},
+	{
+		"id": 12,
+		"category": null,
+		"title": "Interactive Classes",
+		"description": "The Quran Courses Academy uses the latest software such as video streaming, whiteboard, screen sharing and multi-channel audio to make Quran Interactive learning experience.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s2.jpg"
+	},
+	{
+		"id": 13,
+		"category": null,
+		"title": "Flexible Timings",
+		"description": "The courses are scheduled according to the convenience of the students, so that learning the Quran can easily be adjusted according to their daily routine without any hassle.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s3.jpg"
+	},
+	{
+		"id": 14,
+		"category": null,
+		"title": "Any Time & Device ",
+		"description": "For your convenience, you can now learn Quran Everywhere, at any time, on any device.Take your Quran class on PC, iPhone or any others Android device at your convenience.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s4.jpg"
+	},
+	{
+		"id": 15,
+		"category": "quran",
+		"title": "Learn Quran",
+		"description": "Learn Quran with The Quran Courses Academy. We have now designed a series of Quranic Courses for kids and adults to such as Quran Memorization and Quran Recitation.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s5.jpg"
+	},
+	{
+		"id": 16,
+		"category": "quran",
+		"title": "Learn Arabic",
+		"description": "Quran Courses will teach you how to communicate in Arabic and have a fluent speech. You can also learn Arabic numbers, conjugate Arabic verbs and Arabic grammar as well.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s6.jpg"
+	},
+	{
+		"id": 17,
+		"category": "quran",
+		"title": "Learn Tajweed",
+		"description": "Learn the Holy Quran with Tajweed rules online with qualified and expert tutors from Bangladesh to recite the Quran properly.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s7.jpg"
+	},
+	{
+		"id": 18,
+		"category": "quran",
+		"title": "Quran For kids",
+		"description": "Teaching at a young age is like carving on Stone.This means that when you learn something at a young age,you will probably remember it for life.especially Quran for kids course.",
+		"image": "https://saruarhosenn.github.io/quran-education-img-host/s8.jpg"
+	}
+]

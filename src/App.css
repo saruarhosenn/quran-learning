@@ -1,0 +1,283 @@
+/* 
+==================================
+Google Fonts cdn
+==================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@400;500;700&display=swap');
+/* 
+==================================
+Google Fonts cdn
+==================================
+*/
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #212529;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	overflow-x: hidden;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* 
+==================================
+Bacic Setup
+==================================
+*/
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	background: #212529;
+	color: #FFFFFF;
+}
+
+::selection {
+	background: #212529;
+	color: #FFFFFF;
+}
+
+a,
+span,
+label {
+	display: inline-block;
+}
+
+ul li {
+	list-style: none
+}
+
+a,
+a:focus {
+	text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+	outline: 0;
+	border: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+hr {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+hr {
+	opacity: 1;
+	background-color: transparent;
+}
+
+/* 
+==============================
+Font Size
+==============================
+*/
+.font-size-45 {
+	font-size: 4.5rem;
+}
+
+@media (max-width: 575px) {
+	.font-size-45 {
+		font-size: 3.6rem;
+	}
+}
+
+.font-size-30 {
+	font-size: 3rem;
+}
+
+@media (max-width: 575px) {
+	.font-size-30 {
+		font-size: 2.5rem;
+	}
+}
+
+.font-size-25 {
+	font-size: 2.5rem;
+}
+
+@media (max-width: 575px) {
+	.font-size-25 {
+		font-size: 2.3rem;
+	}
+}
+
+.font-size-18 {
+	font-size: 1.8rem;
+}
+
+.font-size-16 {
+	font-size: 1.6rem;
+}
+
+/* 
+=================================
+Font Color
+=================================
+*/
+.text-color-dark {
+	color: #212529;
+}
+
+.text-color-green {
+	color: #00AA55;
+}
+
+.text-color-light {
+	color: #F2F3F9;
+}
+
+/* 
+====================================
+Background Color
+====================================
+*/
+.bg-color-dark {
+	background: #212529;
+}
+
+.bg-color-green {
+	background: #00AA55;
+}
+
+.bg-color-light {
+	background: #F2F3F9;
+}
+
+/* 
+================================================
+================================================
+Start Reuseble Components
+================================================
+*/
+.tran-1 {
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.tran-2 {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:visited,
+.btn-primary:active,
+.btn-primary:link,
+.btn-primary {
+	padding: 1rem 4rem;
+	background: #00AA55;
+	color: #FFFFFF;
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	position: relative;
+	overflow: hidden;
+	text-transform: capitalize;
+	z-index: 9;
+	border-radius: 3rem 0 3rem 0;
+	-webkit-border-radius: 3rem 0 3rem 0;
+	-moz-border-radius: 3rem 0 3rem 0;
+	-ms-border-radius: 3rem 0 3rem 0;
+	-o-border-radius: 3rem 0 3rem 0;
+}
+
+.btn-primary::after {
+	content: '';
+	background: #212529;
+	position: absolute;
+	left: -35%;
+	top: 0;
+	z-index: -9;
+	width: 0%;
+	height: 100%;
+	-webkit-transform: skew(45deg);
+	-ms-transform: skew(45deg);
+	transform: skew(45deg);
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.btn-primary svg,
+.btn-404 svg {
+	width: 1.7rem;
+}
+
+.translateY:hover {
+	transform: translateY(-.5rem);
+	-webkit-transform: translateY(-.5rem);
+	-moz-transform: translateY(-.5rem);
+	-ms-transform: translateY(-.5rem);
+	-o-transform: translateY(-.5rem);
+}
+
+.btn-primary:hover::after {
+	width: 170%;
+}
+
+.line {
+	border: .2rem solid #00AA55;
+	width: 12rem;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.pt-70 {
+	padding-top: 7rem;
+}
+
+.pb-70 {
+	padding-bottom: 7rem;
+}
+
+/* 
+================================================
+End Reuseble Components
+================================================
+================================================
+*/
